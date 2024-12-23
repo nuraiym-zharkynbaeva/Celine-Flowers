@@ -1,0 +1,436 @@
+@media(max-width: 1240px){
+.why-choose-us .conteiner{
+    width: 100%;
+}
+}
+
+@media(max-width: 1126px){
+    .about .conteiner{
+        display: block;
+    }
+    
+        .about-left{
+            margin-left: 300px;
+        
+        }
+    
+}
+@media(max-width: 1087px){
+    .about-left{
+        margin-left: 250px;
+    }
+    .testimonails__right img{
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1050px){
+    .choose-items{
+        display: block;
+    }
+    .item{
+        width: 100%;
+    }
+}
+@media(max-width:1214px){
+.testimonails__right img{
+    margin-right: 100px;
+}
+}
+@media(max-width:1002px){
+.testimonails__right img{
+    margin-right: 30px;
+}
+}
+@media(max-width: 976px){
+.wedding-decor h2{
+font-size: 40px;
+}
+.wedding-decor p{
+    font-size: 15px;
+}
+.wedding-decor button{
+    padding: 10px 20px;
+}
+.about-right h2{
+    font-size: 70px;
+}
+.hero__text h1{
+    font-size: 70px;
+}
+.img img{
+    height: auto;
+}
+
+}
+@media(max-width:973px){
+.testimonails__left{
+    max-width: 600px;
+}
+}
+@media(max-width:920px){
+    .about-left{
+        margin-left: 200px;
+    }
+    .hero__text p{
+        font-size: 15px;
+    }
+    .hero__img__text{
+        font-size: 15px;
+    }
+.links-right{
+        display: none;
+        
+}
+.links-right.active{
+    display: block;
+    position: fixed;
+        z-index: 100;
+        background-color: #f6e1ea;
+        width:500px;
+        top: 0; 
+        right: 0;
+        height: 700px;
+}
+    .links-right ul{
+        flex-direction: column;
+        margin-right: 200px;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+       
+    }
+    .links-left{
+        display:none ;
+    }
+    .links-left.active{
+        display: block;
+        position: fixed;
+            z-index: 100;
+            background-color: #f6e1ea;
+            width:500px;
+            top: 0; 
+            left: 0;
+            height: 700px;
+    }
+        .links-left ul{
+            flex-direction: column;
+            margin-right: 200px;
+            margin-top: 100px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 200px;
+           
+        }
+
+    .img{
+        padding: 50px 50px 50px 0;
+        border-left: none;
+    }
+    .burger-menu{
+        width: 30px;
+        height: 3px;
+        background:#222;
+        position:relative;
+        z-index: 101;
+        margin: 0 20px 30px 0;
+    }
+    .burger-menu::before{
+        content: '';
+        width: 30px;
+        height: 3px;
+        background:#222;
+        display: block;
+        position: absolute;
+        top: -10px;
+      
+    }
+    .burger-menu::after{
+        content: '';
+        width: 30px;
+        height: 3px;
+        background:#222;
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+    .burger__menu{
+        width: 30px;
+        height: 3px;
+        background:#222;
+        position:relative;
+        z-index: 101;
+        margin: 0 0 30px 20px;
+    }
+    .burger__menu::before{
+        content: '';
+        width: 30px;
+        height: 3px;
+        background:#222;
+        display: block;
+        position: absolute;
+        top: -10px;
+      
+    }
+    .burger__menu::after{
+        content: '';
+        width: 30px;
+        height: 3px;
+        background:#222;
+        display: block;
+        position: absolute;
+        top: 10px;
+    }
+    
+}
+@media(max-width:900px){
+.all__contact{
+    display: block;
+}
+.img{
+    display: none;
+}
+.contact__info h3{
+    text-align: center;
+}
+.contact__info p{
+    text-align: center;
+    margin-top: 25px;
+}
+.contact__info div{
+    width: 100%;
+}
+}
+@media(max-width:898px){
+.testimonails__left{
+    max-width: 400px;
+}
+}
+@media(max-width:840px){
+    .about-left{
+        margin-left: 150px;
+    }
+}
+@media(max-width:750px){
+    .categories h2{
+        font-size: 25px;
+    }
+    .about-left h2{
+        font-size: 25px;
+    }
+    .why-choose-us h2{
+        font-size: 25px;
+    }
+    .contact h2{
+        font-size: 25px;
+    }
+    
+    .testimonails h2{
+        font-size: 25px;
+    }
+    .category h2{
+        font-size: 15px;
+    }
+    .item h3{
+        font-weight: 400;
+    }
+    .about-right p{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .about-right h2{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:700px){
+    .about-left{
+        margin-left: 100px;
+    }
+    .wedding-decor h2{
+        font-size: 30px;
+    }
+    .wedding-decor{
+        height: auto;
+    }
+    .wedding-decor p{
+        font-size: 12px;
+    }
+    .wedding-decor button{
+        padding: 10px 15px;
+    }
+    .hero{
+        padding-left: 0;
+    }
+    .contact-info h3{
+        font-size: 15px;
+    }
+    .contact-info p{
+        font-size: 10px;
+    }
+    .shop-info h3{
+        font-size: 15px;
+    }
+    .shop-info p{
+        font-size: 10px;
+    }
+    .socials h3{
+        font-size: 15px;
+    }
+    .socials p{
+        font-size: 10px;
+    }
+    .socials img{
+        margin-right: 30px;
+    }
+    
+}
+@media(max-width:440px){
+    .contact-info h3{
+        font-size: 10px;
+    }
+    .contact-info p{
+        font-size: 8px;
+    }
+    .shop-info h3{
+        font-size: 10px;
+    }
+    .shop-info p{
+        font-size: 8px;
+    }
+    .socials h3{
+        font-size: 10px;
+    }
+    .socials p{
+        font-size: 8px;
+    }
+    .socials img{
+        margin-right: 20px;
+        width: 15px;
+    }
+}
+@media(max-width:650px){
+.about-left{
+    margin-left: 50px;
+}
+
+}
+@media(max-width:600px){
+.hero__texth1{
+    font-size: 50px;
+}
+.hero__text p{
+    font-size: 10px;
+}
+.hero__img__text{
+    font-size: 10px;
+}
+}
+@media(max-width:550px){
+.about-left{
+    margin-left:20px;
+}
+}
+
+@media(max-width:488px){
+    .wedding-decor h2{
+        font-size: 20px;
+       
+    }
+    .wedding-decor p{
+        font-size: 10px;
+    }
+    .wedding-decor{
+        height: auto;
+    }
+}
+@media(max-width:450px){
+.testimonails__right img{
+    margin-left: 70px;
+}
+}
+@media(max-width:400px){
+    .about-left{
+        margin-left: 0;
+    }
+    .contact h2{
+        font-size: 20px;
+    }
+    .categories h2{
+        font-size: 20px;
+    }
+    .about-left h2{
+        font-size: 20px;
+    }
+    .why-choose-us h2{
+        font-size: 20px;
+    }
+    
+    .testimonails h2{
+        font-size: 20px;
+    }
+    .about-right h2{
+        font-size: 40px;
+    }
+    .hero{
+        height: 600px;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .hero__img__text{
+        padding: 30px 0 0 0;
+        border-left: none;
+    }
+.hero__image{
+    display: none;
+}
+.hero__text h1{
+   font-size:50px ; 
+}
+.testimonails__right img{
+    margin-left: 50px;
+}
+}
+@media(max-width:390px){
+.hero__text h1{
+    font-size: 50px;
+}
+.hero{
+    height: 500px;
+}
+}
+@media(max-width:698px){
+.swiper-slide{
+    display: block !important;
+}
+.testimonails__left{
+    max-width: 100%;
+}
+.testimonails__right img{
+margin-left: 200px;
+}
+.testimonails__left h6{
+    margin-left: 0;
+}
+.testimonails__left p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+}
+@media(max-width:600px){
+.testimonails__right img{
+    margin-left: 150px;
+}
+}
+@media(max-width:500px){
+.testimonails__right img{
+    margin-left: 100px;
+}
+
+}
+
+
+
+
+
